@@ -1,0 +1,24 @@
+.a{
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+background:white;
+}
+.b{
+    flex: 1 1 auto;
+}
+.c{
+    padding: 10px;
+}
+
+.mat-drawer-side{
+    border-right: none;
+    background:#2d323e;
+    color: #fff;
+    min-width: 250px;
+}
+.content{
+    padding: 20px;
+}

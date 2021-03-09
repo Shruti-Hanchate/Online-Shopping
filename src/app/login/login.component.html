@@ -1,0 +1,21 @@
+
+<div class ="card" style="margin-left:25%; margin-right:25%; background-color:rgb(5, 11, 37); ">
+    <div style="padding: 5%">
+    <h1 style="color:white">Login Form</h1>
+      <div class="card-header">
+          <img style="margin-left:30%" src="../assets/profile.png"/>
+      </div>
+  
+      <!-- <a mat-list-item [routerLink]="['/register']" ><button >login</button> </a> -->
+      <div class="card-body">
+          <input  placeholder="Username"  name="username" type="text"    required>
+  
+          <input   type="password" placeholder="Enter Password"     required>
+          <br>
+          <br>
+          <a mat-list-item [routerLink]="['/register']" (click)="login()" class="aa"> register here</a>
+          <a mat-list-item [routerLink]="['/alldata']"  ><button type="submit" class="aa">Login</button></a>
+      </div>
+    </div>
+  </div>
+  
